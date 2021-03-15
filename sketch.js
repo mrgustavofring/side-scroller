@@ -2,13 +2,6 @@ var man;
 let img, img2;
 // let rock;
 let rocks = [];
-let muzac;
-
-function preload() {
-
-  soundFormats('mp3', 'ogg');
-  muzac = loadSound('assets/yt1s.com - engineer gaming.mp3');
-}
 
 function setup() {
   mode = 0;
